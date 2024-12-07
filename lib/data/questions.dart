@@ -1,0 +1,26 @@
+import 'package:advanced_basics/models/quiz_question.dart';
+
+const questions = [
+  QuizQuestion('What is the capital of France?',
+      ['Paris', 'London', 'Berlin', 'Madrid'], 0),
+  QuizQuestion('What is the capital of Germany?',
+      ['Paris', 'London', 'Berlin', 'Madrid'], 2),
+  QuizQuestion('What is the capital of Spain?',
+      ['Paris', 'London', 'Berlin', 'Madrid'], 3),
+  QuizQuestion('What is the capital of the United Kingdom?',
+      ['Paris', 'London', 'Berlin', 'Madrid'], 1),
+  QuizQuestion('What is the capital of Italy?',
+      ['Paris', 'London', 'Berlin', 'Madrid'], 0),
+  QuizQuestion('What is the capital of the United States?',
+      ['Paris', 'London', 'Washington D.C.', 'Madrid'], 2),
+  QuizQuestion('What is the capital of Canada?',
+      ['Paris', 'London', 'Berlin', 'Ottawa'], 3),
+  QuizQuestion('What is the capital of Australia?',
+      ['Paris', 'London', 'Berlin', 'Canberra'], 3),
+  QuizQuestion('What is the capital of Japan?',
+      ['Tokyo', 'London', 'Berlin', 'Madrid'], 0),
+  QuizQuestion('What is the capital of China?',
+      ['Paris', 'London', 'Beijing', 'Madrid'], 2),
+  QuizQuestion('What is the capital of Russia?',
+      ['Paris', 'London', 'Berlin', 'Moscow'], 3),
+];
